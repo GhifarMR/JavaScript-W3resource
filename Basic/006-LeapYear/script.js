@@ -1,5 +1,5 @@
 const isLapYear = (year) => {
-  const check = year % 100 === 0 ? year % 400 === 0 : year % 4 === 0;
+  const check = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
   check ? "this is lap year" : "this is not lap year";
 
   console.log(check);
